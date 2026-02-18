@@ -1,0 +1,18 @@
+name = "heysalad-harmony-api"
+main = "src/index.ts"
+compatibility_date = "2024-02-09"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "heysalad-harmony-api"
+route = "harmony-api.heysalad-o.workers.dev/*"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "harmony-db"
+database_id = "443a9bba-1804-4bdd-85e9-0de19b334c6f"
+
+# Secrets (add via: wrangler secret put SECRET_NAME)
+# HEYSALAD_OAUTH_CLIENT_ID
+# HEYSALAD_OAUTH_CLIENT_SECRET
+# OPENAI_API_KEY

@@ -1,0 +1,20 @@
+{
+  "name": "@heysalad/harmony-api",
+  "version": "1.0.0",
+  "description": "HeySalad Harmony - Workforce Management API",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "migrate": "wrangler d1 migrations apply harmony-db"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.28.0"
+  }
+}

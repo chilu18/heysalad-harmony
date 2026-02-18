@@ -1,0 +1,25 @@
+{
+  "name": "@heysalad/harmony",
+  "version": "0.1.0",
+  "description": "HeySalad Harmony - Resource management for humans and AI agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest"
+  },
+  "keywords": [
+    "heysalad",
+    "harmony",
+    "resource-management",
+    "ai-agents",
+    "human-agents"
+  ],
+  "author": "HeySalad Payments Ltd",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  }
+}

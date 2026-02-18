@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bereit Sheets Agent</title>
+    <link rel="stylesheet" href="sidebar.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <header class="sidebar__header">
+        <img
+          src="../assets/bereit-icon.png"
+          alt="Bereit logo"
+          class="sidebar__logo"
+        />
+        <div class="sidebar__heading-group">
+          <h1 class="sidebar__title">AI Assist</h1>
+          <p class="sidebar__subtitle">Bereit Sheets Agent</p>
+        </div>
+      </header>
+
+      <section class="sidebar__section">
+        <p class="sidebar__status" id="bereit-status">Ready.</p>
+        <div class="sidebar__actions">
+          <button id="bereit-refresh" class="sidebar__button secondary">
+            Refresh Selection
+          </button>
+          <button id="bereit-generate" class="sidebar__button primary">
+            Generate Notes
+          </button>
+        </div>
+      </section>
+
+      <section class="sidebar__section">
+        <h2 class="sidebar__heading">Selected Rows</h2>
+        <div id="bereit-selection" class="sidebar__scroll"></div>
+      </section>
+
+      <section class="sidebar__section">
+        <h2 class="sidebar__heading">Latest Suggestions</h2>
+        <div id="bereit-suggestions" class="sidebar__scroll"></div>
+      </section>
+
+      <section class="sidebar__section">
+        <h2 class="sidebar__heading">Writeback Status</h2>
+        <div id="bereit-write-status" class="sidebar__scroll"></div>
+      </section>
+
+      <footer class="sidebar__footer">
+        <button id="bereit-open-settings" class="sidebar__link">
+          Manage API Key
+        </button>
+      </footer>
+    </div>
+
+    <script type="module" src="sidebar.js"></script>
+  </body>
+</html>

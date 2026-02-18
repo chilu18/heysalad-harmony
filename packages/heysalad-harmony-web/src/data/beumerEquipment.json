@@ -1,0 +1,591 @@
+{
+  "metadata": {
+    "source": "BEUMER Group Equipment Catalogue & Safety Requirements",
+    "generatedAt": "2024-04-25T00:00:00Z",
+    "version": 1
+  },
+  "equipmentCategories": [
+    {
+      "id": "baggage_handling_systems",
+      "label": "Baggage Handling Systems",
+      "segment": "Airport Technology",
+      "equipment": [
+        { "id": "beumer-autover-ics", "name": "BEUMER autover Independent Carrier System" },
+        { "id": "crisbag-ics", "name": "CrisBag Independent Carrier System" },
+        { "id": "crisbag-self-bag-drop", "name": "CrisBag Self Bag Drop" },
+        { "id": "cris-belt", "name": "CrisBelt Conveyor System" },
+        { "id": "crischeck", "name": "CrisCheck Check-In Conveyor" },
+        { "id": "crisclaim", "name": "CrisClaim Baggage Carousels" },
+        { "id": "crisstore", "name": "CrisStore Dynamic Racking Solution" },
+        { "id": "tilt-tray-loop-sorter", "name": "Tilt-Tray Loop Sortation System" },
+        { "id": "automated-container-unloader", "name": "Automated Container Unloader" },
+        { "id": "baggage-loader", "name": "Baggage Loader" },
+        { "id": "baggage-manipulator", "name": "Baggage Manipulator" },
+        { "id": "baggage-unloader", "name": "Baggage Unloader" },
+        { "id": "airport-software-suite", "name": "Airport Software Suite" }
+      ],
+      "trainingPrograms": [
+        {
+          "id": "baggage-conveyor-systems",
+          "title": "Baggage Conveyor Systems",
+          "durationDays": { "min": 3, "max": 5 },
+          "topics": [
+            "System overview and components",
+            "Start-up and shutdown procedures",
+            "Basic troubleshooting",
+            "Emergency stop protocols",
+            "Software interface training"
+          ],
+          "certificationsRequired": [
+            "Airport operations certification",
+            "Equipment-specific manufacturer certification"
+          ]
+        },
+        {
+          "id": "independent-carrier-systems",
+          "title": "Independent Carrier Systems",
+          "durationDays": { "min": 5, "max": 7 },
+          "topics": [
+            "Control software operation",
+            "Carrier routing and tracking",
+            "Maintenance procedures",
+            "Fault diagnosis",
+            "System integration"
+          ],
+          "certificationsRequired": [
+            "Airport operations certification",
+            "Equipment-specific manufacturer certification"
+          ]
+        },
+        {
+          "id": "self-bag-drop-check-in",
+          "title": "Self Bag Drop and Check-In",
+          "durationDays": { "min": 2, "max": 3 },
+          "topics": [
+            "User interface operation",
+            "Passenger assistance procedures",
+            "System monitoring",
+            "Basic maintenance",
+            "Security protocols"
+          ],
+          "certificationsRequired": [
+            "Airport operations certification",
+            "Equipment-specific manufacturer certification"
+          ]
+        },
+        {
+          "id": "automated-loaders-unloaders",
+          "title": "Automated Loaders and Unloaders",
+          "durationDays": { "min": 4, "max": 6 },
+          "topics": [
+            "Equipment operation",
+            "Safety systems",
+            "Container handling procedures",
+            "Emergency procedures",
+            "Preventive maintenance"
+          ],
+          "certificationsRequired": [
+            "Airport operations certification",
+            "Equipment-specific manufacturer certification"
+          ]
+        }
+      ],
+      "safetyRequirements": {
+        "hazards": [
+          "Moving conveyors and pinch points",
+          "Electrical systems",
+          "Elevated platforms"
+        ],
+        "controls": [
+          "Emergency stop buttons every 10-15 meters",
+          "Guarding on all moving parts",
+          "Interlock systems on access doors and gates",
+          "Warning lights and audible alarms",
+          "Anti-climb barriers on elevated systems",
+          "Regular electrical safety inspections"
+        ],
+        "certificationsRequired": [
+          "Electrical safety awareness",
+          "Elevated work platform certification",
+          "Confined space entry (for maintenance access)"
+        ]
+      }
+    },
+    {
+      "id": "logistics_systems",
+      "label": "Logistics Systems",
+      "segment": "CEP, E-Commerce, Distribution",
+      "equipment": [
+        { "id": "bg-sorter-cb", "name": "BG Sorter CB Cross-Belt" },
+        { "id": "bg-sorter-et", "name": "BG Sorter ET Tilt-Tray" },
+        { "id": "bg-line-sorter", "name": "BG Line Sorter" },
+        { "id": "bg-pouch-system", "name": "BG Pouch System" },
+        { "id": "bg-parcel-belt", "name": "BG Parcel Belt Conveyor" },
+        { "id": "parcel-singulator", "name": "Automatic Parcel Singulator" },
+        { "id": "beumer-tipping-station", "name": "BEUMER Tipping Station" },
+        { "id": "warehouse-control-system", "name": "Warehouse Control System" },
+        { "id": "cep-software-suite", "name": "CEP Software Suite" }
+      ],
+      "trainingPrograms": [
+        {
+          "id": "cross-belt-tilt-tray-sorters",
+          "title": "Cross-Belt and Tilt-Tray Sorters",
+          "durationDays": { "min": 5, "max": 10 },
+          "topics": [
+            "System architecture",
+            "Control system operation",
+            "Induction procedures",
+            "Sorting algorithms",
+            "Performance optimization",
+            "Advanced troubleshooting"
+          ],
+          "certificationsRequired": [
+            "Warehouse operations certification",
+            "WCS operator certification"
+          ]
+        },
+        {
+          "id": "parcel-conveyors",
+          "title": "Parcel Conveyors",
+          "durationDays": { "min": 2, "max": 4 },
+          "topics": [
+            "Conveyor operation",
+            "Speed control",
+            "Jam clearance procedures",
+            "Basic maintenance",
+            "Safety protocols"
+          ],
+          "certificationsRequired": [
+            "Warehouse operations certification",
+            "Fork-lift license (where applicable)"
+          ]
+        },
+        {
+          "id": "pouch-systems",
+          "title": "Pouch Systems",
+          "durationDays": { "min": 3, "max": 5 },
+          "topics": [
+            "Pouch handling",
+            "Loading and unloading procedures",
+            "System monitoring",
+            "Maintenance routines"
+          ],
+          "certificationsRequired": [
+            "Warehouse operations certification",
+            "WCS operator certification"
+          ]
+        },
+        {
+          "id": "warehouse-control-systems",
+          "title": "Warehouse Control Systems",
+          "durationDays": { "min": 5, "max": 10 },
+          "topics": [
+            "Software operation",
+            "Order fulfillment processes",
+            "Material flow control",
+            "Business intelligence tools",
+            "System integration"
+          ],
+          "certificationsRequired": [
+            "Warehouse operations certification",
+            "WCS operator certification"
+          ]
+        }
+      ],
+      "safetyRequirements": {
+        "hazards": [
+          "High-speed moving parts",
+          "Automated machinery",
+          "Noise exposure",
+          "Repetitive strain"
+        ],
+        "controls": [
+          "Light curtains and safety scanners",
+          "Emergency stop rope pulls along system length",
+          "Noise suppression measures",
+          "Ergonomic induction stations",
+          "Automatic shutdown on safety breach",
+          "Segregated pedestrian walkways"
+        ],
+        "certificationsRequired": [
+          "Automation safety training",
+          "Ergonomic handling certification",
+          "Hearing conservation program participation"
+        ]
+      }
+    },
+    {
+      "id": "conveying_technology",
+      "label": "Conveying Technology",
+      "segment": "Heavy Industry",
+      "equipment": [
+        { "id": "troughed-belt-conveyors", "name": "Troughed Belt Conveyors" },
+        { "id": "overland-belt-conveyors", "name": "Overland Belt Conveyors" },
+        { "id": "pipe-conveyors", "name": "Pipe Conveyors" },
+        { "id": "air-supported-belt-conveyors", "name": "Air-supported Belt Conveyors" },
+        { "id": "mobile-conveyors", "name": "Mobile Conveyors" },
+        { "id": "u-shape-conveyors", "name": "U-Shape Conveyors" },
+        { "id": "apron-conveyors", "name": "Apron Conveyors" },
+        { "id": "bucket-elevators", "name": "Bucket Elevators" },
+        { "id": "screw-conveyors", "name": "Screw Conveyors" },
+        { "id": "drive-stations", "name": "Drive Stations" },
+        { "id": "shifting-heads", "name": "Shifting Heads" },
+        { "id": "tripper-cars", "name": "Tripper Cars" },
+        { "id": "hopper-cars", "name": "Hopper Cars" },
+        { "id": "feeding-hoppers", "name": "Feeding Hoppers" },
+        { "id": "conveyor-components", "name": "Conveyor Components (pulleys, belts, idlers)" },
+        { "id": "afr-conveyors", "name": "Conveyor Systems for Alternative Fuels" }
+      ],
+      "trainingPrograms": [
+        {
+          "id": "belt-conveyors",
+          "title": "Belt Conveyors (Overland and Troughed)",
+          "durationDays": { "min": 5, "max": 10 },
+          "topics": [
+            "Belt tracking and tensioning",
+            "Splicing techniques",
+            "Drive system operation",
+            "Safety systems",
+            "Lubrication schedules",
+            "Inspection procedures"
+          ],
+          "certificationsRequired": [
+            "Heavy equipment operator license",
+            "Conveyor belt splicing certification",
+            "Elevated work platform certification"
+          ]
+        },
+        {
+          "id": "bucket-elevators",
+          "title": "Bucket Elevators",
+          "durationDays": { "min": 3, "max": 5 },
+          "topics": [
+            "Operating procedures",
+            "Bucket inspection",
+            "Chain and belt maintenance",
+            "Alignment procedures",
+            "Emergency protocols"
+          ],
+          "certificationsRequired": [
+            "Heavy equipment operator license",
+            "Conveyor belt splicing certification"
+          ]
+        },
+        {
+          "id": "pipe-conveyors",
+          "title": "Pipe Conveyors",
+          "durationDays": { "min": 5, "max": 7 },
+          "topics": [
+            "Curved conveying principles",
+            "Belt closure systems",
+            "Specialized maintenance",
+            "Troubleshooting"
+          ],
+          "certificationsRequired": [
+            "Heavy equipment operator license",
+            "Conveyor belt splicing certification"
+          ]
+        },
+        {
+          "id": "mobile-conveyors",
+          "title": "Mobile Conveyors",
+          "durationDays": { "min": 2, "max": 4 },
+          "topics": [
+            "Equipment mobilization",
+            "Setup procedures",
+            "Operating controls",
+            "Transport safety"
+          ],
+          "certificationsRequired": [
+            "Heavy equipment operator license"
+          ]
+        },
+        {
+          "id": "tripper-cars-shifting-heads",
+          "title": "Tripper Cars and Shifting Heads",
+          "durationDays": { "min": 3, "max": 5 },
+          "topics": [
+            "Positioning systems",
+            "Remote operation",
+            "Material distribution",
+            "Track maintenance"
+          ],
+          "certificationsRequired": [
+            "Heavy equipment operator license",
+            "Elevated work platform certification"
+          ]
+        }
+      ],
+      "safetyRequirements": {
+        "hazards": [
+          "Belt movement and tail-over points",
+          "Rotating equipment",
+          "Falling materials",
+          "Dust exposure",
+          "Noise",
+          "Work at height"
+        ],
+        "controls": [
+          "Belt guards and covers",
+          "Pull-cord emergency stops on both sides",
+          "Speed monitoring systems",
+          "Zero-speed switches",
+          "Material spillage controls",
+          "Dust suppression systems",
+          "Fall protection anchor points",
+          "Walkways with guardrails"
+        ],
+        "certificationsRequired": [
+          "Working at height certification",
+          "Belt splicing certification",
+          "Confined space entry",
+          "Respirator fit testing",
+          "Heavy equipment operation license"
+        ],
+        "medicalSurveillance": [
+          "Baseline and periodic audiometry",
+          "Respiratory health monitoring",
+          "Vibration exposure assessment"
+        ]
+      }
+    },
+    {
+      "id": "specialized_systems",
+      "label": "Specialized Systems",
+      "segment": "Mining, Port, and Industrial",
+      "equipment": [
+        { "id": "opencast-mining-systems", "name": "Opencast Mining Systems" },
+        { "id": "stockyard-systems", "name": "Stockyard Systems" },
+        { "id": "mineral-processing-equipment", "name": "Mineral Processing Equipment" },
+        { "id": "port-technology-systems", "name": "Port Technology Systems" },
+        { "id": "loading-unloading-systems", "name": "Loading and Unloading Systems" }
+      ],
+      "trainingPrograms": [],
+      "safetyRequirements": {
+        "hazards": [
+          "Heavy machinery",
+          "Outdoor environments and weather",
+          "Extreme loads",
+          "Dust exposure",
+          "Vehicle traffic"
+        ],
+        "controls": [
+          "Vehicle exclusion zones",
+          "Dust suppression through water spray systems",
+          "Wind monitoring for stability",
+          "Load monitoring systems",
+          "Traffic management systems",
+          "Weather protection for operators",
+          "Lightning protection systems"
+        ],
+        "certificationsRequired": [
+          "Heavy equipment operator license",
+          "Mine site induction (for mining applications)",
+          "Port authority safety induction (for port applications)",
+          "First aid certification",
+          "Isolation procedure training"
+        ],
+        "medicalSurveillance": [
+          "Dust exposure monitoring (silica and coal dust)",
+          "Periodic chest X-rays (mining applications)",
+          "Fitness for work assessments"
+        ]
+      }
+    },
+    {
+      "id": "end_of_line_packaging_systems",
+      "label": "End-of-Line Packaging Systems",
+      "segment": "Palletising and Packaging",
+      "equipment": [
+        { "id": "beumer-paletpac", "name": "BEUMER paletpac Palletising Technology" },
+        { "id": "packaging-technology", "name": "Packaging Technology" },
+        { "id": "beumer-fillpac", "name": "BEUMER fillpac Filling Technology" },
+        { "id": "beumer-stretch-hood", "name": "BEUMER stretch hood Pallet Wrapping" }
+      ],
+      "trainingPrograms": [
+        {
+          "id": "robotic-palletisers",
+          "title": "Robotic Palletisers",
+          "durationDays": { "min": 5, "max": 7 },
+          "topics": [
+            "Robot programming basics",
+            "Pattern creation",
+            "Safety zone configuration",
+            "Tool changing",
+            "Troubleshooting"
+          ],
+          "certificationsRequired": [
+            "Robot safety certification",
+            "Lock-out and Tag-out certification"
+          ]
+        },
+        {
+          "id": "layer-palletisers",
+          "title": "Layer Palletisers",
+          "durationDays": { "min": 3, "max": 5 },
+          "topics": [
+            "Layer formation",
+            "Pallet handling",
+            "Product changeover",
+            "Maintenance procedures"
+          ],
+          "certificationsRequired": [
+            "Manual handling training",
+            "Lock-out and Tag-out certification"
+          ]
+        },
+        {
+          "id": "stretch-hood-systems",
+          "title": "Stretch Hood Systems",
+          "durationDays": { "min": 3, "max": 5 },
+          "topics": [
+            "Film loading",
+            "Hood application",
+            "Film parameter adjustment",
+            "Sealing systems",
+            "Maintenance"
+          ],
+          "certificationsRequired": [
+            "Manual handling training",
+            "Lock-out and Tag-out certification"
+          ]
+        },
+        {
+          "id": "filling-systems",
+          "title": "Filling Systems",
+          "durationDays": { "min": 4, "max": 6 },
+          "topics": [
+            "Product handling",
+            "Weighing systems",
+            "Bag and container filling",
+            "Dust control",
+            "Calibration procedures"
+          ],
+          "certificationsRequired": [
+            "Lock-out and Tag-out certification",
+            "Product handling certification"
+          ]
+        }
+      ],
+      "safetyRequirements": {
+        "hazards": [
+          "Robotic movement",
+          "Pinch points",
+          "Heavy loads",
+          "Repetitive motion",
+          "Film cutting edges"
+        ],
+        "controls": [
+          "Safety-rated monitored stop systems",
+          "Collaborative robot safety features",
+          "Safety mats and light curtains",
+          "Two-hand control stations",
+          "Load weight indicators",
+          "Anti-tie-down circuits",
+          "Shrink film ventilation systems"
+        ],
+        "certificationsRequired": [
+          "Robot safety training (ISO 10218 / ISO TS 15066)",
+          "Manual handling training",
+          "Lock-out and Tag-out procedures",
+          "Machine guarding awareness"
+        ]
+      }
+    }
+  ],
+  "generalSafety": {
+    "personalProtectiveEquipment": {
+      "mandatory": [
+        "Safety shoes with steel toe cap and slip resistance",
+        "High-visibility vest or clothing",
+        "Safety glasses or goggles",
+        "Hearing protection where noise exceeds 85 dB"
+      ],
+      "taskSpecific": [
+        "Hard hat for overhead work areas",
+        "Cut-resistant or impact-resistant gloves",
+        "Respiratory protection in dusty environments",
+        "Fall protection harness for work above two meters"
+      ]
+    },
+    "preOperationRequirements": [
+      "Valid training certification for assigned equipment",
+      "Attendance at pre-shift safety briefing",
+      "Completion of equipment inspection checklist",
+      "Lock-out and Tag-out certification for maintenance tasks",
+      "Confined space entry permit where applicable",
+      "Hot work permit for welding or cutting activities"
+    ]
+  },
+  "maintenanceSafetyProtocols": {
+    "preMaintenance": [
+      "Full electrical and mechanical isolation",
+      "Application of personal Lock-out and Tag-out devices",
+      "Release of stored energy including pneumatic and hydraulic pressure",
+      "Verification of zero energy state",
+      "Permit to work issued and displayed",
+      "Notification of affected personnel"
+    ],
+    "additionalPPE": [
+      "Arc flash protection for electrical work",
+      "Chemical-resistant gloves for lubrication tasks",
+      "Welding helmet and protective leathers for fabrication",
+      "Respiratory protection for painting and enclosed spaces"
+    ]
+  },
+  "emergencyResponse": {
+    "requiredPersonnel": [
+      "Trained first aiders (minimum one per shift)",
+      "Fire wardens",
+      "Emergency coordinator",
+      "Rescue team for confined spaces and elevated work"
+    ],
+    "equipment": [
+      "First aid stations every 100 meters or as required",
+      "Fire extinguishers rated for equipment type",
+      "Emergency wash stations",
+      "Spill kits",
+      "Rescue equipment including harnesses and tripods",
+      "Reliable communication systems such as radios or emergency phones"
+    ],
+    "training": [
+      "Emergency response refresher every six months",
+      "First aid certification renewed every two to three years"
+    ]
+  },
+  "regulatoryStandards": {
+    "international": [
+      "ISO 45001 Occupational Health and Safety Management",
+      "ISO 12100 Safety of Machinery General Principles",
+      "IEC 60204-1 Electrical Equipment of Machines",
+      "ISO 13849-1 Safety-Related Parts of Control Systems",
+      "ISO 10218 Robots and Robotic Devices Safety Requirements",
+      "EN 1889 Continuous Handling Equipment Belt Conveyors",
+      "ANSI B20.1 Conveyors and Related Equipment",
+      "AS 1755 Conveyors Safety Requirements"
+    ],
+    "regional": [
+      "EU Machinery Directive 2006/42/EC and CE marking",
+      "USA OSHA regulations and MSHA for mining",
+      "UK PUWER and LOLER regulations",
+      "Australia Work Health and Safety Regulations"
+    ]
+  },
+  "trainingRefreshers": [
+    { "id": "equipment-operation", "title": "Equipment Operation", "frequency": "Annually" },
+    { "id": "safety-procedures", "title": "Safety Procedures", "frequency": "Annually" },
+    { "id": "emergency-response", "title": "Emergency Response", "frequency": "Every 6 months" },
+    { "id": "first-aid", "title": "First Aid", "frequency": "Every 2-3 years" },
+    { "id": "elevated-work-platform", "title": "Elevated Work Platform", "frequency": "Every 1-3 years" },
+    { "id": "lock-out-tag-out", "title": "Lock-out and Tag-out", "frequency": "Annually" },
+    { "id": "confined-space-entry", "title": "Confined Space Entry", "frequency": "Annually" },
+    { "id": "fork-lift-operation", "title": "Fork-lift Operation", "frequency": "Every 3 years" }
+  ],
+  "implementationNotes": [
+    "Adapt training and safety requirements to jurisdictional rules and site-specific hazards.",
+    "Require theoretical and practical competency assessments before granting independent operation.",
+    "Maintain training records, inspections, and incident reports for at least five to seven years.",
+    "Collect equivalent certification evidence from third-party maintenance contractors.",
+    "Review and update safety procedures after incidents and upon receiving manufacturer bulletins."
+  ]
+}

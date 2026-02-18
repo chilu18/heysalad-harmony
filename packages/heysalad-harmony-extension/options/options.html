@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bereit Sheets Agent Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="page__header">
+        <img src="../assets/bereit.png" alt="Bereit logo" />
+        <div>
+          <h1>Bereit Sheets Agent</h1>
+          <p class="subtitle">Configure API access and integrations.</p>
+        </div>
+      </header>
+
+      <section class="card">
+        <h2>OpenAI Authentication</h2>
+        <p class="help-text">
+          Store your OpenAI API key securely. The key is saved with
+          <code>chrome.storage.sync</code> and never leaves your browser.
+        </p>
+        <form id="api-key-form" class="form">
+          <label for="api-key-input">OpenAI API Key</label>
+          <div class="form__row">
+            <input
+              type="password"
+              id="api-key-input"
+              name="apiKey"
+              autocomplete="off"
+              placeholder="sk-..."
+              required
+            />
+            <button type="button" id="toggle-visibility">Show</button>
+          </div>
+          <button type="submit" class="primary">Save Key</button>
+        </form>
+        <p id="api-key-status" class="status"></p>
+      </section>
+
+      <section class="card">
+        <h2>Bereit Backend Sync (Coming Soon)</h2>
+        <p class="help-text">
+          Placeholder toggle for syncing activity with Bereit's backend. This
+          currently does not perform any network request.
+        </p>
+        <label class="toggle">
+          <input type="checkbox" id="backend-sync-toggle" />
+          <span>Enable Bereit backend synchronization</span>
+        </label>
+        <p id="backend-sync-status" class="status"></p>
+      </section>
+    </main>
+
+    <script type="module" src="options.js"></script>
+  </body>
+</html>

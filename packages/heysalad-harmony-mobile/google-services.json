@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "416059457639",
+    "project_id": "beriet",
+    "storage_bucket": "beriet.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416059457639:android:27f6abe498c503e47914c2",
+        "android_client_info": {
+          "package_name": "com.saladhr.bereit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlvfunDOKMbKau56a2CyFteEfMYK_OEZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

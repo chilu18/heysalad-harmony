@@ -1,0 +1,28 @@
+{
+  "name": "heysalad-harmony",
+  "version": "1.0.0",
+  "description": "HeySalad Harmony - Resource management suite for humans and AI agents",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces",
+    "test": "npm run test --workspaces",
+    "clean": "rm -rf packages/*/dist packages/*/node_modules node_modules"
+  },
+  "keywords": [
+    "heysalad",
+    "harmony",
+    "resource-management",
+    "ai-agents",
+    "monorepo"
+  ],
+  "author": "HeySalad Payments Ltd <peter@heysalad.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heysalad/heysalad-harmony.git"
+  }
+}
